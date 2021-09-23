@@ -1,0 +1,13 @@
+.gameBoard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  &__buttons {
+    display: flex;
+    gap: 1rem;
+  }
+}
